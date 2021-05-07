@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: travel-load
+  datasource:
+    url: jdbc:mysql://localhost:3306/travel
+    username: root
+    password:
+server:
+  error:
+    include-message: always
