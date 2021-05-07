@@ -29,6 +29,7 @@ public class Post {
     private String authorImage;
 
 
+
     public Post(String image, String title, String context, LocalDate postDate, String author, String authorImage) {
         this.image = image;
         this.title = title;

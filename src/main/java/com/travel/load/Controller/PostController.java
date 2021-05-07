@@ -28,6 +28,7 @@ public class PostController {
         return postService.getPost(postId);
     }
 
+
     @PostMapping
     public void addPost(@RequestBody Post post) {
         postService.addPost(post);
